@@ -26,3 +26,21 @@ if (answer3.toLowerCase() === 'yes' || 'y') {
 } else {
   console.log('Yo, answer yes or no please.');
 };
+
+var answer4 = prompt('Is Michael married?');
+if (answer4.toLowerCase() === 'yes' || 'y') {
+  console.log('YEAH YEAH YEAH, I am married to a beautiful Filipina woman.');
+} else if (answer4.toLowerCase() === 'no' || 'n') {
+  console.log('Sorry, you are wrong. Though, while I love being married, there ARE days I wish I was single... ');
+} else {
+  console.log('Yo, answer yes or no please.');
+};
+
+var answer5 = prompt('Does Michael have a child?');
+if (answer5.toLowerCase() === 'yes' || 'y') {
+  console.log('That\'s right! I have an adorable little girl.');
+} else if (answer5.toLowerCase() === 'no' || 'n') {
+  console.log('We REALLY need to get to know eachother better.');
+} else {
+  console.log('Yo, answer yes or no please.');
+};

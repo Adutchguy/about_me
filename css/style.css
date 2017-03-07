@@ -1,3 +1,24 @@
 * {
   font-family: 'VT323', monospace;
 }
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #f4f4f4;
+}
+
+#greeting {
+  text-align: center;
+  color: #e37222;
+  border: solid black 2px;
+  background-color: #66b9bf;
+  font-size: 3em;
+}
+
+#questions {
+  color:#07889b;
+  border: solid black 2px;
+  background-color: #eeaa7b;
+  font-size: 3em;
+}
