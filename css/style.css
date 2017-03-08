@@ -1,8 +1,7 @@
+/*General CSS*/
+
 * {
   border: 1px solid red;
-  font-family: 'VT323', monospace;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -11,18 +10,58 @@ body {
   background-color: #dfdfdf;
 }
 
-#greeting {
+/*CSS for Header Area*/
+
+
+#nameHeader {
   text-align: center;
-  color: #e37222;
-  border: solid black 2px;
-  background-color: #66b9bf;
-  font-size: 3em;
+  width: auto;
+  text-decoration: underline;
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
 }
 
-#questions {
-  color:#07889b;
-  border: solid black 2px;
-  background-color: #eeaa7b;
-  font-size: 3em;
-  padding-left: 100px;
+#contact {
+  width: 600px;
+  display: block;
+  margin: auto;
 }
+
+#addressHeader {
+  text-align: center;
+}
+
+#contactHeader {
+  text-align: center;
+}
+
+/*CSS for Profile Area*/
+
+#profile {
+  font-family: 'Domine', serif;
+}
+
+
+
+/*CSS for Key Skills Area*/
+
+#keySkills {
+  font-family: 'Domine', serif;
+
+}
+
+/*CSS for Professional Experience Area*/
+
+#proExp {
+  font-family: 'Domine', serif;
+
+}
+
+/*CSS for Education Area*/
+
+#education {
+  font-family: 'Domine', serif;
+
+}
+
+/*CSS for Footer Area*/
