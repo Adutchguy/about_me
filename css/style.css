@@ -1,8 +1,8 @@
 * {
+  border: 1px solid red;
   font-family: 'VT323', monospace;
   padding: 0;
   margin: 0;
-  border: 0;
 }
 
 body {
