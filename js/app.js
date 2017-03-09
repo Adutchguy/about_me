@@ -135,7 +135,7 @@ if (i === -1) {
 // Question 7
 // add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
 
-var correctAnswer = ['Tahiti ','Hawaii ','Las Vegas '];
+var correctAnswer = ['Tahiti','Hawaii','Las Vegas'];
 
 for (var i = 5; i >= 0; i--) {
   var question7 = 'What is one of Michael\'s top 3 travel destinations? You have ' + [i + 1] + ' attempts to guess just one of the destinations. Good luck!';
