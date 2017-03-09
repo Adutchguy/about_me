@@ -1,46 +1,96 @@
 'use strict';
 
-var answer = prompt('Do you think that trump will do alright?');
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  console.log('hm...I don\'t know about that... But you are entitled to your opinion my friend.');
-} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
-  console.log('Alright, I\'m inclined to agree with you.');
+// Question 1
+
+var question1 = 'Does Michael think that trump is a good president?';
+var answer1 = prompt(question1);
+
+if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
+  var trueResponse = 'hm...I don\'t know about that... But you are entitled to your opinion my friend.';
+  console.log(trueResponse);
+  alert(trueResponse);
+} else if (answer1.toLowerCase() === 'no' || answer1.toLowerCase() === 'n') {
+  var falseResponse = 'Alright, I\'m inclined to agree with you.';
+  console.log(falseResponse);
+  alert(falseResponse);
 } else {
-  console.log('Let\'s get our thoughts and opinions in order shall we?');
+  var otherResponse = 'Yo, answer yes or no please.';
+  console.log(otherResponse);
+  alert(otherResponse);
 };
 
-var answer2 = prompt('Does Michael like dogs?');
+// Question 2
+
+var question2 = 'Does Michael like dogs?';
+var answer2 = prompt(question2);
+
 if (answer2.toLowerCase() === 'yes' || answer2.toLowerCase() === 'y') {
-  console.log('Wrong!');
+  var trueResponse = 'Wrong! Go suck a lemon.';
+  console.log(trueResponse);
+  alert(trueResponse);
 } else if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
-  console.log('Cats are easily the best and it can be no other way.');
+  var falseResponse = 'That\'s right! Cats are easily the best and it can be no other way.';
+  console.log(falseResponse);
+  alert(falseResponse);
 } else {
-  console.log('Yo, answer yes or no please.');
+  var otherResponse = 'Yo, answer yes or no please.';
+  console.log(otherResponse);
+  alert(otherResponse);
 };
 
-var answer3 = prompt('Does Michael like to play soccer?');
+// Question 3
+
+var question3 = 'Does Michael like to play soccer?';
+var answer3 = prompt(question3);
+
 if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
-  console.log('Good guess! I see you were paying attention during our introductions.');
+  var trueResponse = 'Good guess! I see you were paying attention during our introductions.';
+  console.log(trueResponse);
+  alert(trueResponse);
 } else if (answer3.toLowerCase() === 'no' || answer3.toLowerCase() === 'n') {
-  console.log('We should get to know eachother a little better it seems...');
+  var falseResponse = 'We should get to know eachother a little better it seems...';
+  console.log(falseResponse);
+  alert(falseResponse);
 } else {
-  console.log('Yo, answer yes or no please.');
+  var otherResponse = 'Yo, answer yes or no please.';
+  console.log(otherResponse);
+  alert(otherResponse);
 };
 
-var answer4 = prompt('Is Michael married?');
+// Question 4
+
+var question4 = 'Is Michael married?';
+var answer4 = prompt(question4);
+
 if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
-  console.log('YEAH YEAH YEAH, I am married to a beautiful Filipina woman.');
+  var trueResponse = 'YEAH YEAH YEAH, I am married to a beautiful Filipina woman.';
+  console.log(trueResponse);
+  alert(trueResponse);
 } else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
-  console.log('Sorry, you are wrong. Though, while I love being married, there ARE days I wish I was single... ');
+  var falseResponse = 'Sorry, that\'s not right. Though, while I love being married, there ARE days I wish I was single... ';
+  console.log(falseResponse);
+  alert(falseResponse);
 } else {
-  console.log('Yo, answer yes or no please.');
+  var otherResponse = 'Yo, answer yes or no please.';
+  console.log(otherResponse);
+  alert(otherResponse);
 };
 
-var answer5 = prompt('Does Michael have a child?');
+// Question 5
+
+var question5 = 'Does Michael have a child?';
+var answer5 = prompt(question5);
+
 if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
-  console.log('That\'s right! I have an adorable little girl.');
+  var trueResponse = 'That\'s right! I have an adorable little girl.';
+  console.log(trueResponse);
+  alert(trueResponse);
 } else if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
-  console.log('We REALLY need to get to know eachother better.');
+  var falseResponse = 'We REALLY need to get to know eachother better. I have a little girl. She\'s a real sweetheart';
+  console.log(falseResponse);
+  alert(falseResponse);
 } else {
-  console.log('Yo, answer yes or no please.');
+  var otherResponse = 'Yo, answer yes or no please.';
+  console.log(otherResponse);
+  alert(otherResponse);
 };
