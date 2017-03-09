@@ -135,12 +135,12 @@ if (i === -1) {
 // Question 7
 // add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
 
-var correctAnswer = ['Tahiti','Hawaii','Las Vegas'];
+var correctAnswer = ['Tahiti ','Hawaii ','Las Vegas '];
 
 for (var i = 5; i >= 0; i--) {
   var question7 = 'What is one of Michael\'s top 3 travel destinations? You have ' + [i + 1] + ' attempts to guess just one of the destinations. Good luck!';
-  var answer7 = prompt(question7);
-  if (answer7 === correctAnswer) {
+  var answer7 = prompt(question7).toLowerCase();
+  if (answer7 === correctAnswer[0].toLowerCase() || answer7 === correctAnswer[1].toLowerCase() || answer7 === correctAnswer[2].toLowerCase()) {
     var trueResponse = 'I\'m impressed, you got one!';
     console.log(trueResponse);
     alert(trueResponse);
@@ -151,12 +151,16 @@ for (var i = 5; i >= 0; i--) {
     alert(badAnswer);
   }
 
-  if (i === -1) {
+  if (i === 0) {
     var fail = 'You\'re all out of attempts. Better luck next time!';
     console.log(fail);
     alert(fail);
   }
 }
 
-// Count of Answers
-// As a developer, I want to keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom message that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time."
+alert('Here are the answers...');
+
+for (var j = 0; j < correctAnswer.length; j++){
+  console.log(correctAnswer[j]);
+  alert('Answer ' + (j + 1) + ': ' + correctAnswer[j]);
+}
