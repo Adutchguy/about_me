@@ -4,6 +4,11 @@
 
 var question1 = 'Does Michael think that trump is a good president?';
 var answer1 = prompt(question1);
+if ( answer1 === null) {
+  var userCancel = 'You can play the guessing game another time. :)';
+  console.log(userCancel);
+  alert(userCancel);
+}
 
 if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
   var trueResponse = 'hm...I don\'t know about that... But you are entitled to your opinion my friend.';
@@ -17,7 +22,7 @@ if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
   var otherResponse = 'Yo, answer yes or no please.';
   console.log(otherResponse);
   alert(otherResponse);
-};
+}
 
 // Question 2
 
@@ -96,30 +101,36 @@ if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
 };
 
 // Question 6
-// add a sixth question to my guessing game that takes numeric input by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch yesterday?"), and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
 
-var question6 = 'How old is Michael?';
-var answer6 = prompt(question6);
 var today = new Date();
 var year = today.getFullYear() - 1;
 var correctAnswer = (year - 1986);
 
-for (var i = 4; i >= 1; i++) {
-  if (answer6 === 30) {
-    trueResponse = 'HOLY %$#^, great guess!';
+for (var i = 3; i >= 0; i--) {
+  var question6 = 'How old is Michael? You have ' + [i + 1] + ' attempts.';
+  var answer6 = prompt(question6);
+  if (parseInt(answer6) === correctAnswer) {
+    var trueResponse = 'HOLY %$#^, great guess!';
     console.log(trueResponse);
     alert(trueResponse);
+    break;
   }
   else if (answer6 > correctAnswer) {
-    var tooHigh = 'Too high, try again. You have ' + [i] + ' attempts remaining.';
+    var tooHigh = 'Too high. You have ' + [i] + ' attempts remaining.';
     console.log(tooHigh);
     alert(tooHigh);
   }
   else if (answer6 < correctAnswer) {
-    var tooLow = 'Too low, try again. You have ' + [i] + ' attempts remaining.';
+    var tooLow = 'Too low. You have ' + [i] + ' attempts remaining.';
     console.log(tooLow);
     alert(tooLow);
   }
+}
+
+if (i === -1) {
+  var fail = 'You\'re all out of attempts. Better luck next time!';
+  console.log(fail);
+  alert(fail);
 }
 
 // Question 7
