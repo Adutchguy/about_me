@@ -26,3 +26,8 @@ font-family: 'Cabin', sans-serif;
 font-family: 'VT323', monospace;
 font-family: 'Nunito', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
+
+#### Changes
+Changed variables on functions.
+Driver: Fortunato
+Navigator: Michael
