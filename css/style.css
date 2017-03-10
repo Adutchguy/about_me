@@ -9,6 +9,21 @@ body {
   background-color: #dfdfdf;
 }
 
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+ul, ol {
+  font-family: 'Quicksand', sans-serif;
+}
+
+a {
+  font-family: 'VT323', monospace;
+}
 /*CSS for Header Area*/
 
 
@@ -17,7 +32,7 @@ body {
   width: auto;
   text-decoration: underline;
   font-size: 45px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Pacifico', cursive;
 }
 
 #contact {
@@ -37,21 +52,19 @@ body {
 /*CSS for Profile Area*/
 
 #profile {
-  font-family: 'Domine', serif;
 }
 
 #profileHeader {
-
+  font-family: 'Rubik', sans-serif;
 }
 
 #profileTextBold {
-
+  font-family: 'Inconsolata', monospace;
 }
 
 /*CSS for Key Skills Area*/
 
 #keySkills {
-  font-family: 'Domine', serif;
 
 }
 
@@ -59,18 +72,9 @@ body {
 
 }
 
-#leftList {
-
-}
-
-#rightList {
-
-}
-
 /*CSS for Professional Experience Area*/
 
 #proExp {
-  font-family: 'Domine', serif;
 
 }
 
@@ -83,11 +87,7 @@ body {
 }
 
 #deltaMarineBold {
-
-}
-
-#deltaMarineList {
-
+  font-family: 'Inconsolata', monospace;
 }
 
 #boeing {
@@ -95,31 +95,36 @@ body {
 }
 
 #boeingBold {
-
-}
-
-#boeingList {
-
+  font-family: 'Inconsolata', monospace;
 }
 
 /*CSS for Education Area*/
 
 #education {
-  font-family: 'Domine', serif;
+
+}
+
+#educationHeader {
+
+}
+
+#codeFellows {
+
+}
+
+#edcc {
 
 }
 
 /*CSS for Questions Area*/
 
 #questions {
-  font-family: 'Domine', serif;
 
 }
 
 /*CSS for Fun Facts Area*/
 
 #funFacts {
-  font-family: 'Domine', serif;
 
 }
 /*CSS for Footer Area*/
