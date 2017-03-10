@@ -40,12 +40,30 @@ body {
   font-family: 'Domine', serif;
 }
 
+#profileHeader {
 
+}
+
+#profileTextBold {
+
+}
 
 /*CSS for Key Skills Area*/
 
 #keySkills {
   font-family: 'Domine', serif;
+
+}
+
+#keySkillsHeader {
+
+}
+
+#leftList {
+
+}
+
+#rightList {
 
 }
 
@@ -56,6 +74,34 @@ body {
 
 }
 
+#proEXPHeader {
+
+}
+
+#deltaMarine {
+
+}
+
+#deltaMarineBold {
+
+}
+
+#deltaMarineList {
+
+}
+
+#boeing {
+
+}
+
+#boeingBold {
+
+}
+
+#boeingList {
+
+}
+
 /*CSS for Education Area*/
 
 #education {
@@ -63,4 +109,17 @@ body {
 
 }
 
+/*CSS for Questions Area*/
+
+#questions {
+  font-family: 'Domine', serif;
+
+}
+
+/*CSS for Fun Facts Area*/
+
+#funFacts {
+  font-family: 'Domine', serif;
+
+}
 /*CSS for Footer Area*/
