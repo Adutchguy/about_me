@@ -63,7 +63,7 @@ function question2 () {
     console.log(falseResponse);
     alert(falseResponse);
   } else {
-    otherResponse = 'Yo, answer yes or no please.';
+    var otherResponse = 'Yo, answer yes or no please.';
     console.log(otherResponse);
     alert(otherResponse);
   }
@@ -89,7 +89,7 @@ function question3 () {
     console.log(falseResponse);
     alert(falseResponse);
   } else {
-    otherResponse = 'Yo, answer yes or no please.';
+    var otherResponse = 'Yo, answer yes or no please.';
     console.log(otherResponse);
     alert(otherResponse);
   };
@@ -116,7 +116,7 @@ function question4 () {
     console.log(falseResponse);
     alert(falseResponse);
   } else {
-    otherResponse = 'Yo, answer yes or no please.';
+    var otherResponse = 'Yo, answer yes or no please.';
     console.log(otherResponse);
     alert(otherResponse);
   }
@@ -143,7 +143,7 @@ function question5 () {
     console.log(falseResponse);
     alert(falseResponse);
   } else {
-    otherResponse = 'Yo, answer yes or no please.';
+    var otherResponse = 'Yo, answer yes or no please.';
     console.log(otherResponse);
     alert(otherResponse);
   }
