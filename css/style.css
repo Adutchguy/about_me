@@ -1,11 +1,10 @@
 /*General CSS*/
 
-* {
-}
-
 body {
-  max-width: 1600px;
-  min-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
   background-color: #dfdfdf;
 }
 
@@ -26,13 +25,13 @@ a {
 }
 /*CSS for Header Area*/
 
-
 #nameHeader {
   text-align: center;
   width: auto;
   text-decoration: underline;
   font-size: 45px;
   font-family: 'Pacifico', cursive;
+  position: relative;
 }
 
 #contact {
@@ -65,7 +64,15 @@ a {
 /*CSS for Key Skills Area*/
 
 #keySkills {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
 
+#keySkills ul {
+  display: inline-block;
+  margin: auto;
 }
 
 #keySkillsHeader {
