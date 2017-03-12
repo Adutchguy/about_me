@@ -1,139 +1,208 @@
 /*General CSS*/
 
+* {
+  text-decoration-color: #82A5B0;
+}
+
+html {
+
+}
+
 body {
   width: 100%;
-  background-color: .dfdfdf;
+  background-color: #B0B0B0;
+  padding: 0;
+  margin: 0;
 }
 
 p {
   font-family: 'Nunito', sans-serif;
-  outline: dotted 1px red;
+font-size: 2vw;
 }
 
 h2 {
   font-family: 'Rubik', sans-serif;
+  font-size: 3vw;
 }
 
 ul, ol {
   font-family: 'Quicksand', sans-serif;
+  font-size: 1.7vw;
 }
 
 a {
-  font-family: 'VT323', monospace;
-  outline: dotted 1px red;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3vw;
+  color: #0C0A09
 }
 /*CSS for Header Area*/
 
-.nameHeader {
-  text-align: center;
-  width: auto;
-  text-decoration: underline;
-  font-size: 45px;
+header{
+  width: 100%;
+  height: 10vw;
+  position: fixed;
+  font-size: 3vw;
   font-family: 'Pacifico', cursive;
-  outline: dotted 1px red;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 0px 0px 20px 20px;
+  border: 2px solid black;
+  background-color: rgba(130,165,176,1);
+  z-index: 99;
+  top:0px
 }
+
+header h1 {
+  display: block;
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+  height: 9.5vw;
+  width: 50vw;
+  text-align: center;
+}
+
+/*CSS FOR CONTACT INFO AREA*/
 
 .contact {
-  width: 600px;
-  display: block;
   margin: auto;
-  outline: dotted 1px red;
+  margin-top: 12vw;
+/*   outline: 1px solid yellow; */
+  width: 100%;
+  height: auto;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 1vw;
+  background: #8C8CB0;
+  box-sizing: border-box;
+
 }
 
-.addressHeader {
-  text-align: center;
-  outline: dotted 1px red;
+.contact .address {
+/*   outline: 1px solid yellow; */
+  display: block;
+  width: 55vw;
+  margin: auto;
+  position: relative;
+  height: 10vw;
 }
 
-.contactHeader {
+.contact .address .addressHeader {
+  display: inline-block;
+  width: 20vw;
+  float: left;
+  left: 3vw;
   text-align: center;
-  outline: dotted 1px red;
+/*   outline: 1px solid yellow; */
+  border: .5px solid black;
+  border-radius: 50px;
+  position: absolute;
+}
+
+/* .contact hr {
+  width: 18vw;
+  margin: auto;
+  margin-top: .5vw;
+  margin-bottom: .5vw;
+} */
+
+.contact .address .contactHeader {
+  display: inline-block;
+  width: 20vw;
+  right: 3vw;
+  text-align: center;
+/*   outline: 1px solid yellow; */
+  border: .5px solid black;
+  border-radius: 50px;
+  position: absolute;
 }
 
 /*CSS for Profile Area*/
 
 .profile {
-  outline: dotted 1px red;
+  position: relative;
+  clear: both;
+
 }
 
-.profileHeader {
+.profile .profileHeader {
   font-family: 'Rubik', sans-serif;
-  outline: dotted 1px red;
+
 }
 
-.profileTextBold {
+.profile .profileTextBold {
   font-family: 'Inconsolata', monospace;
-  outline: dotted 1px red;
+
 }
 
 /*CSS for Key Skills Area*/
 
-.keySkills {
-  display: block;
+.keySkills div{
+  position:relative;
   width: 100%;
-  margin: auto;
-  outline: dotted 1px red;
+
+  /*background: rgba(0,255,0,.3);*/
 }
 
-.keySkillsHeader {
-  display: block;
+.keySkills div .keySkillsHeader{
   position: absolute;
   top: 0pt;
-  margin: auto;
-  outline: dotted 1px red;
+  left: 0pt;
+
   width: auto;
+  /*background: rgba(0,255,255,.3);*/
 }
 
-.ksul1 {
-  display: block;
-  margin: auto;
+.keySkills div .ksul1 {
   position: absolute;
   left: 0pt;
   bottom: 0pt;
-  outline: dotted 1px red;
+
   width: 50%;
-  background: rgba(255,00,00,0.5);
+  /*background: rgba(255,00,00,0.5);*/
+  padding: 0;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-.ksul2 {
-  display: block;
-  margin: auto;
+.keySkills div .ksul2 {
   position: absolute;
-  outline: dotted 1px red;
+
   width: 50%;
-  background: rgba(0,0,255,0.5);
+  /*background: rgba(0,0,255,0.5);*/
   right: 0pt;
+  bottom: 0pt;
+  padding: 0;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 /*CSS for Professional Experience Area*/
 
 .proExp {
-  display: block;
-
+  width: 100%;
+  position: relative;
 }
 
 .proEXPHeader {
-  display: block;
 
 }
 
 .deltaMarine {
-  display: block;
 
 }
 
 .deltaMarineBold {
-  display: block;
   font-family: 'Inconsolata', monospace;
 }
 
 .boeing {
-  display: block;
 
 }
 
 .boeingBold {
-  display: block;
   font-family: 'Inconsolata', monospace;
 }
 
