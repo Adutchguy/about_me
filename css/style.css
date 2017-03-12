@@ -2,14 +2,12 @@
 
 body {
   width: 100%;
-  box-sizing: border-box;
-  padding: 0;
-  margin: auto;
-  background-color: #dfdfdf;
+  background-color: .dfdfdf;
 }
 
 p {
   font-family: 'Nunito', sans-serif;
+  outline: dotted 1px red;
 }
 
 h2 {
@@ -22,116 +20,150 @@ ul, ol {
 
 a {
   font-family: 'VT323', monospace;
+  outline: dotted 1px red;
 }
 /*CSS for Header Area*/
 
-#nameHeader {
+.nameHeader {
   text-align: center;
   width: auto;
   text-decoration: underline;
   font-size: 45px;
   font-family: 'Pacifico', cursive;
-  position: relative;
+  outline: dotted 1px red;
 }
 
-#contact {
+.contact {
   width: 600px;
   display: block;
   margin: auto;
+  outline: dotted 1px red;
 }
 
-#addressHeader {
+.addressHeader {
   text-align: center;
+  outline: dotted 1px red;
 }
 
-#contactHeader {
+.contactHeader {
   text-align: center;
+  outline: dotted 1px red;
 }
 
 /*CSS for Profile Area*/
 
-#profile {
+.profile {
+  outline: dotted 1px red;
 }
 
-#profileHeader {
+.profileHeader {
   font-family: 'Rubik', sans-serif;
+  outline: dotted 1px red;
 }
 
-#profileTextBold {
+.profileTextBold {
   font-family: 'Inconsolata', monospace;
+  outline: dotted 1px red;
 }
 
 /*CSS for Key Skills Area*/
 
-#keySkills {
+.keySkills {
   display: block;
-  position: relative;
   width: 100%;
   margin: auto;
+  outline: dotted 1px red;
 }
 
-#keySkills ul {
-  display: inline-block;
+.keySkillsHeader {
+  display: block;
+  position: absolute;
+  top: 0pt;
   margin: auto;
+  outline: dotted 1px red;
+  width: auto;
 }
 
-#keySkillsHeader {
+.ksul1 {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 0pt;
+  bottom: 0pt;
+  outline: dotted 1px red;
+  width: 50%;
+  background: rgba(255,00,00,0.5);
+}
 
+.ksul2 {
+  display: block;
+  margin: auto;
+  position: absolute;
+  outline: dotted 1px red;
+  width: 50%;
+  background: rgba(0,0,255,0.5);
+  right: 0pt;
 }
 
 /*CSS for Professional Experience Area*/
 
-#proExp {
+.proExp {
+  display: block;
 
 }
 
-#proEXPHeader {
+.proEXPHeader {
+  display: block;
 
 }
 
-#deltaMarine {
+.deltaMarine {
+  display: block;
 
 }
 
-#deltaMarineBold {
+.deltaMarineBold {
+  display: block;
   font-family: 'Inconsolata', monospace;
 }
 
-#boeing {
+.boeing {
+  display: block;
 
 }
 
-#boeingBold {
+.boeingBold {
+  display: block;
   font-family: 'Inconsolata', monospace;
 }
 
 /*CSS for Education Area*/
 
-#education {
+.education {
 
 }
 
-#educationHeader {
+.educationHeader {
 
 }
 
-#codeFellows {
+.codeFellows {
 
 }
 
-#edcc {
+.edcc {
 
 }
 
 /*CSS for Questions Area*/
 
-#questions {
+.questions {
 
 }
 
 /*CSS for Fun Facts Area*/
 
-#funFacts {
+.funFacts {
 
 }
 /*CSS for Footer Area*/
