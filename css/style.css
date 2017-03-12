@@ -67,7 +67,7 @@ header h1 {
 
 .contact {
   margin: auto;
-  margin-top: 12vw;
+  margin-top: 11vw;
 /*   outline: 1px solid yellow; */
   width: 100%;
   height: auto;
@@ -77,7 +77,6 @@ header h1 {
   padding: 1vw;
   background: #8C8CB0;
   box-sizing: border-box;
-
 }
 
 .contact .address {
@@ -92,31 +91,29 @@ header h1 {
 .contact .address .addressHeader {
   display: inline-block;
   width: 20vw;
-  float: left;
   left: 3vw;
   text-align: center;
+  font-size: 1.8vw;
 /*   outline: 1px solid yellow; */
-  border: .5px solid black;
+  border: 1.5px solid black;
   border-radius: 50px;
+  box-sizing: border-box;
   position: absolute;
+  top: 10%;
 }
-
-/* .contact hr {
-  width: 18vw;
-  margin: auto;
-  margin-top: .5vw;
-  margin-bottom: .5vw;
-} */
 
 .contact .address .contactHeader {
   display: inline-block;
+  font-size: 1.8vw;
   width: 20vw;
   right: 3vw;
   text-align: center;
 /*   outline: 1px solid yellow; */
-  border: .5px solid black;
+  border: 1.5px solid black;
   border-radius: 50px;
   position: absolute;
+  box-sizing: border-box;
+  top: 10%;
 }
 
 /*CSS for Profile Area*/
